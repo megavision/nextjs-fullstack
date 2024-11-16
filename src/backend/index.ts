@@ -2,7 +2,7 @@ import salvarUsuario from './usuario/salvarUsuario'
 import obterTodos from './usuario/obterTodos'
 import excluirUsuario from './usuario/excluirUsuario'
 
-// Padrão Facade
+// Padrão Facade na pratica
 export default class Backend {
     static readonly usuarios = {
         salvar: salvarUsuario,
